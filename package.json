@@ -1,6 +1,6 @@
 {
   "name": "@annoai/js-file-name-from-url",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A helper method that gets the file name from a url.",
   "main": "dist/lib/index.js",
   "scripts": {
