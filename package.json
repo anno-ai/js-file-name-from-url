@@ -1,0 +1,33 @@
+{
+  "name": "@annoai/js-file-name-from-url",
+  "version": "1.0.0",
+  "description": "A helper method that gets the file name from a url.",
+  "main": "dist/lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-npm": "npm ci && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anno-ai/js-file-name-from-url.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anno-ai/js-file-name-from-url/issues"
+  },
+  "homepage": "https://github.com/anno-ai/js-file-name-from-url#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^13.11.0",
+    "sanitize-filename": "^1.6.3",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
